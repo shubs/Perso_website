@@ -10,7 +10,7 @@
 }
 
 .main .large-header {
-	background-image: url("../img/bc.jpg");
+	background-image: url("../img/bc1.jpg");
 }
 
 #info {
@@ -38,14 +38,18 @@
 }
 
 a {
-  color:rgb(102,102,102) !important;
+  color:rgb(211, 211, 211) !important;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition:.8s;
 }
-a:hover { color:white !important;}
+
+a:hover {
+	color:white !important;
+}
+
 #intro{
 	font-size: 1.5em;
 	font-weight: 100;
