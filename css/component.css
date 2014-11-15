@@ -10,7 +10,7 @@
 }
 
 .main .large-header {
-	background-image: url('../img/demo-2-bg.jpg');
+	background-image: url("../img/bc.jpg");
 }
 
 #info {
@@ -38,9 +38,14 @@
 }
 
 a {
-	color: white !important;
+  color:rgb(102,102,102) !important;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.8s;
 }
-
+a:hover { color:white !important;}
 #intro{
 	font-size: 1.5em;
 	font-weight: 100;
