@@ -10,7 +10,7 @@
 }
 
 .main .large-header {
-	background-image: url('../img/demo-1-bg.jpg');
+	background-image: url('../img/demo-2-bg.jpg');
 }
 
 #info {
@@ -50,4 +50,12 @@ h2 {
 
 a {
 	color: white !important;
+}
+
+#intro{
+	font-size: .75em;
+	font-weight: 300;
+	margin: 0 0 50px 35px;
+	border-left: 1px solid #da520e;
+	padding-left: 10px;
 }
