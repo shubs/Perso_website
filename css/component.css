@@ -9,10 +9,6 @@
 	z-index: 1;
 }
 
-.main .large-header {
-	background-image: url("../img/bc1.jpg");
-}
-
 #info {
 	position: absolute;
 	margin: 0;
