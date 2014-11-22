@@ -12,7 +12,8 @@
 
 	curl_close($curl);
 
-	print_r($resp);
+	$json = var_dump(json_decode($json));
+	$img = $json->url;
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
