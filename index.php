@@ -1,6 +1,18 @@
 <?php
-	$response = http_get("http://www.example.com/", array("timeout"=>1), $info);
-	print_r($info);
+
+	$curl = curl_init();
+
+	curl_setopt_array($curl, array(
+	    CURLOPT_RETURNTRANSFER => 1,
+	    CURLOPT_URL => 'http://www.splashbase.co/api/v1/images/1',
+	    CURLOPT_USERAGENT => 'Codular Sample cURL Request'
+	));
+
+	$resp = curl_exec($curl);
+
+	curl_close($curl);
+
+	print_r($resp);
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
