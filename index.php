@@ -4,7 +4,7 @@
 
 	curl_setopt_array($curl, array(
 	    CURLOPT_RETURNTRANSFER => 1,
-	    CURLOPT_URL => 'http://www.splashbase.co/api/v1/images/1',
+	    CURLOPT_URL => 'http://www.splashbase.co/api/v1/images/random',
 	    CURLOPT_USERAGENT => 'Codular Sample cURL Request'
 	));
 
@@ -12,7 +12,7 @@
 
 	curl_close($curl);
 
-	$json = json_decode($json);
+	$json = json_decode($resp);
 	$img = $json->url;
 ?>
 <!DOCTYPE html>
